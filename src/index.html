@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="m-3">
+    <h1 class="text-red-400">Titre</h1>
+    <section class="container border-2 border-blue-500 mx-auto">
+        <div class="md:columns-2 lg:columns-4">
+            <section class="border-2 border-red-500">
+                Section 1
+            </section>
+            <section class="border-2 border-red-500">
+                Section 2
+            </section>
+            <section class="border-2 border-red-500">
+                Section 3
+            </section>
+            <section class="border-2 border-red-500">
+                Section 4
+            </section>
+        </div>
+    </section>
+    <h2 class="text-2xl font-bold underline uppercase">
+        Sous titre
+    </h2>
+
+    <div class="max-w-sm border border-gray-200 shadow-lg rounded-lg mb-3">
+        <a href="#">
+            <img class="rounded-t-lg" src="images/tailwind.png" alt="Couverture">
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h2 class="mb-2 text-2xl font-bold text-gray-700">Titre de l'article</h2>
+            </a>
+            <p class="mb-3 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusantium, delectus sunt aspernatur voluptates nam laudantium mollitia fugit quae doloremque.</p>
+            <a href="#" class="inline-flex items-center py-2 px-3 bg-blue-700 text-white rounded-lg text-sm font-medium hover:bg-blue-900">Lire la suite</a>
+        </div>
+    </div>
+
+    <div class="container border mx-auto rounded shadow-lg p-10">
+        <h2 class="text-2xl text-blue-500 font-bold mb-6">Connexion</h2>
+        <form action="">
+            <div class="mb-6">
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-500">E-mail</label>
+                <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-blue-500 focus:border-blue-500 focus:border-5">
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block mb-2 text-sm font-medium text-gray-500">Mot de passe</label>
+                <input type="password" name="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-blue-500 focus:border-blue-500 focus:border-5">
+            </div>
+            <div class="mb-6">
+                <button type="submit" class="inline-flex items-center py-2 px-3 bg-blue-700 text-white rounded-lg text-sm font-medium hover:bg-blue-900">
+                    Valider
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="bg-gray-50">
+        <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <span class="block">Ready to dive in?</span>
+            <span class="block text-indigo-600">Start your free trial today.</span>
+          </h2>
+          <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div class="inline-flex rounded-md shadow">
+              <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Get started</a>
+            </div>
+            <div class="ml-3 inline-flex rounded-md shadow">
+              <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
